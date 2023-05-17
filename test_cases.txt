@@ -1,0 +1,65 @@
+Test Case 1:
+Summary: Submit functionality works
+Steps:
+1. Navigate to https://automationteststore.com/index.php?rt=content/contact
+2. Input all data
+Expected result:
+The enquiry should be sent.
+
+Test Case 2:
+Summary: Submit functionality doesn`t work when some data misses
+Steps:
+1. Navigate to https://automationteststore.com/index.php?rt=content/contact
+2. Input all data but one.
+Expected result:
+The missing data should be required.
+
+Test Case 3:
+Summary: Submit functionality works
+Steps:
+1. Navigate to https://webdriveruniversity.com/Contact-Us/contactus.html
+2. Input all data
+Expected result:
+Another page should open with Thank You message.
+
+Test Case 4:
+Summary: It doesn`t redirect to the second page.
+Steps:
+1. Navigate to https://webdriveruniversity.com/Contact-Us/contactus.html
+2. Input all data but one.
+Expected result:
+There should be error with the requirement of all the fields.
+
+Test Case 5:
+Summary: Product pages open.
+Steps:
+1. Navigate to https://automationteststore.com/
+2. Click on a product category.
+Expected result:
+The product lists should open with their selections.
+
+Test Case 6:
+Summary: Click functionality works.
+Steps:
+1. Navigate to https://automationteststore.com/
+2. Click on a certain product.
+Expected result:
+The given product should open with its details.
+
+Test Case 7:
+Summary: Information of Frangrances logs.
+Steps:
+1. Navigate to https://automationteststore.com/
+2. Click on Fragrance.
+Expected result:
+The category should show the products listed inside.
+
+Test Case 8:
+Summary: In Frangrance a product is chosen.
+Steps:
+1. Navigate to https://automationteststore.com/
+2. Click on Fragrance product.
+Expected result:
+The product should show price and details.
+
+
